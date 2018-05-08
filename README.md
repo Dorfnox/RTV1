@@ -43,7 +43,7 @@ And that's it! Enjoy!
 
 ## Authors
 
-* **Brendan Pierce** - *Initial work* - [Brendan Pierce](https://github.com/Dorfnox/)
+* **Brendan Pierce** - *Program creator* - [Brendan Pierce](https://github.com/Dorfnox/)
 
 ## License
 
