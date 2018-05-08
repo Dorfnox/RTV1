@@ -27,6 +27,16 @@ In order to open the program, please run the following.
 
 You can change shapes/cylinder.shape to any of the other shape files.
 
+To see a list of program commands, run:
+
+```
+./rtv1 -h
+```
+
+Press the 'i' key in the application to bring up user controls.
+
+And that's it! Enjoy!
+
 ## Built With
 
 * [Minilibx](https://github.com/qst0/ft_libgfx) - 42's own custom, minimal graphics library
