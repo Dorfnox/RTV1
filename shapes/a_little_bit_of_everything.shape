@@ -1,0 +1,116 @@
+camera
+{
+	position = { 0, 0, 0 }
+}
+light
+{
+	position = { -2, 2, -2 }
+	color = { 255, 255, 255 }
+	intensity = 1
+}
+light
+{
+	position = { 2, 2, -2 }
+	color = { 200, 200, 255 }
+	intensity = 1
+}
+light
+{
+	position = { 0, -2, -2 }
+	color = { 255, 200, 200 }
+	intensity = 1
+}
+object
+{
+	type = sphere
+	position = { -1, 1, -4 }
+	rotation = { -15, 1, 50 }
+	info
+	{
+		color = { 255, 0, 0}
+		shine = 256
+		brightness = 256
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { 0, 0, -3 }
+	rotation = { 1, 1, 1 }
+	info
+	{
+		color = { 0, 255, 0}
+		shine = 256
+		brightness = 256
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { 1, -1, -2 }
+	rotation = { 1, 1, 1 }
+	info
+	{
+		color = { 0, 0, 255}
+		shine = 256
+		brightness = 256
+		radius = 1
+	}
+}
+object
+{
+	type = plane
+	position = { 0, -3, 0 }
+	rotation = { 0, 0, 0 }
+	vector = { 0, 1, 0 }
+	info
+	{
+		color = { 0, 150, 255}
+		shine = 256
+		brightness = 256
+	}
+}
+object
+{
+	type = cylinder
+	position = { 3, 0, -4 }
+	rotation = { 0, 0, 0 }
+	vector = { 0, 1, 0 }
+	info
+	{
+		color = { 255, 255, 255}
+		shine = 256
+		brightness = 256
+		radius = 2;
+	}
+}
+object
+{
+	type = cone
+	position = { -2, 0, -4 }
+	rotation = { 0, 0, 0 }
+	vector = { 0, -1, 0 }
+	info
+	{
+		color = { 255, 255, 255}
+		shine = 256
+		brightness = 256
+		angle = 10
+	}
+}
+object
+{
+	type = cylinder
+	position = { -14, 0, -10 }
+	rotation = { 0, 0, 0 }
+	vector = { 9, 3, 5 }
+	info
+	{
+		color = { 255, 255, 255}
+		shine = 256
+		brightness = 256
+		radius = 2;
+	}
+}

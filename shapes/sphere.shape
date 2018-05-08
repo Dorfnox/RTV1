@@ -1,0 +1,19 @@
+camera
+{
+	position = { 0, 0, 0 }
+}
+light
+{
+	position = { -1, 2, -2 }
+	color = { 255, 255, 255 }
+	intensity = 1
+}
+object
+{
+	type = sphere
+	position = { 0, 0, -3 }
+	info
+	{
+		color = { 255, 255, 3}
+	}
+}

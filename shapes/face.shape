@@ -1,0 +1,205 @@
+camera
+{
+	position = { 0, 0, 0 }
+}
+light
+{
+	position = { 3, 0, -4 }
+	color = { 255, 255, 255 }
+	intensity = 1
+}
+light
+{
+	position = { -3, 0, -4 }
+	color = { 255, 255, 255 }
+	intensity = 1
+}
+light
+{
+	position = { 0, 10, -2 }
+	color = { 220, 255, 255 }
+	intensity = 2
+}
+object
+{
+	type = plane
+	position = { 0, 0, -12 }
+	rotation = { 0, 0, 0 }
+	vector = { 0, 0, 1 }
+	info
+	{
+		color = { 255, 150, 255}
+		shine = 256
+		brightness = 256
+	}
+}
+object
+{
+	type = plane
+	position = { -6, 0, 0 }
+	rotation = { 0, 0, 0 }
+	vector = { 1, 0, 0 }
+	info
+	{
+		color = { 100, 255, 55}
+		shine = 256
+		brightness = 256
+	}
+}
+object
+{
+	type = plane
+	position = { 6, 0, 0 }
+	rotation = { 0, 0, 0 }
+	vector = { -1, 0, 0 }
+	info
+	{
+		color = { 50, 155, 254}
+		shine = 256
+		brightness = 256
+	}
+}
+object
+{
+	type = plane
+	position = { 0, -2, 0 }
+	rotation = { 0, 0, 0 }
+	vector = { 0, 1, 0 }
+	info
+	{
+		color = { 190, 10, 55}
+		shine = 256
+		brightness = 256
+	}
+}
+object
+{
+	type = sphere
+	position = { 0, 0, -16 }
+	info
+	{
+		color = { 206, 154, 64 }
+		radius = 8
+	}
+}
+object
+{
+	type = sphere
+	position = { -1, 2, -10 }
+	info
+	{
+		color = { 115, 46, 7 }
+		radius = 3
+	}
+}
+object
+{
+	type = sphere
+	position = { 1, 2, -10 }
+	info
+	{
+		color = { 115, 46, 7 }
+		radius = 3
+	}
+}
+object
+{
+	type = sphere
+	position = { -1, 2, -7 }
+	info
+	{
+		color = { 179, 213, 34 }
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { 1, 2, -7 }
+	info
+	{
+		color = { 179, 213, 34 }
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { 2, -1, -9 }
+	info
+	{
+		color = { 45, 69, 182 }
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { 1, -1, -8 }
+	info
+	{
+		color = { 45, 69, 182 }
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { 0, -1, -8 }
+	info
+	{
+		color = { 45, 69, 182 }
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { -1, -1, -8 }
+	info
+	{
+		color = { 45, 69, 182 }
+		radius = 1
+	}
+}
+object
+{
+	type = sphere
+	position = { -2, -1, -9 }
+	info
+	{
+		color = { 45, 69, 182 }
+		radius = 1
+	}
+}
+object
+{
+	type = cone
+	position = { 5, 3, -5 }
+	info
+	{
+		color = { 129, 225, 185 }
+		angle = 10
+	}
+}
+object
+{
+	type = cone
+	position = { -5, 3, -5 }
+	info
+	{
+		color = { 129, 225, 185 }
+		angle = 10
+	}
+}
+object
+{
+	type = cylinder
+	position = { 0, -2, -4 }
+	vector = { 1, 0, 0 }
+	info
+	{
+		color = { 0, 255, 255 }
+		radius = 1
+	}
+}
