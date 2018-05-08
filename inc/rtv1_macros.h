@@ -6,7 +6,7 @@
 /*   By: bpierce <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/18 11:55:35 by bpierce           #+#    #+#             */
-/*   Updated: 2017/10/22 20:43:19 by bpierce          ###   ########.fr       */
+/*   Updated: 2018/05/07 20:58:01 by bpierce          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -157,21 +157,32 @@
 ** Usage -----------------------------------------------------------------------
 */
 
-# define USAGE1 "[36musage: ./rtv1 [-e]\n"
-# define USAGE2 "       ./rtv1 [shapes/anyfile.shape][0m\n"
-# define USAGE3 "[-e]                   - opens the editor\n"
-# define USAGE4 "[shapes/anyfile.shape] - will open any specific .shape file"
-# define USAGE USAGE1 USAGE2 USAGE3 USAGE4
+# define USAGE1 "usage:./rtv1 [shapes/anyfile.shape] [-h]\n\n"
+# define USAGE2 "shapes/ ... contains all the .shape files\n"
+# define USAGE USAGE1 USAGE2 "-h      ... brings up the key controls in the terminal\n"
 
-# define LEGEND1 "[1] Quick Object Manipulation view"
-# define LEGEND2 "[2] Normal Raytrace view"
-# define LEGEND3 "[7] No light falloff"
-# define LEGEND4 "[8] Linear light falloff"
-# define LEGEND5 "[9] Square light falloff"
-# define LEGEND6 "[0] No light"
-# define LEGEND7 "[Arrow Keys, rShift, rCtrl]    Rotate Object"
-# define LEGEND8 "[Numpad 2, 4, 6, 7, 8, 9,]     Translate Object"
-# define LEGEND9 "[W, A, S, D, Z, X]             Translate Camera x, y, z axis"
-# define LEGEND10 "[(SHIFT) + (W, A, S, D, Z, X)] Rotate Camera x, y, z axis"
+# define LEGEND1 "[93mInformation\n-----------\n[0m"
+# define LEGEND2 "[i] HUD screen with key controls\n\n"
+
+# define LEGEND3 "[94mChanging the view\n-----------------\n[0m"
+# define LEGEND4 "[1] Quick Object Manipulation view\n"
+# define LEGEND5 "[2] Normal Raytrace view\n\n"
+
+# define LEGEND6 "[95mLight manipulation\n------------------\n[0m"
+# define LEGEND7 "[7] No light falloff\n"
+# define LEGEND8 "[8] Linear light falloff\n"
+# define LEGEND9 "[9] Square light falloff\n"
+# define LEGEND10 "[0] No light\n\n"
+
+# define LEGEND11 "[96mObject Manipulation\n-------------------\n[0m"
+# define LEGEND12 "[Arrow Keys, rShift, rCtrl]     Rotate Object\n"
+# define LEGEND13 "[Numpad 2, 4, 6, 7, 8, 9,]      Translate Object\n\n"
+
+# define LEGEND14 "[97mCamera Manipulation\n-------------------\n[0m"
+# define LEGEND15 "[W, A, S, D, Z, X]              Translate Camera x, y, z axis\n"
+# define LEGEND16 "[(SHIFT) + (W, A, S, D, Z, X)]  Rotate Camera x, y, z axis\n"
+# define LEGEND17 LEGEND1 LEGEND2 LEGEND3 LEGEND4 LEGEND5 LEGEND6 LEGEND7 LEGEND8
+# define LEGEND18 LEGEND9 LEGEND10 LEGEND11 LEGEND12 LEGEND13 LEGEND14 LEGEND15 LEGEND16
+# define LEGEND LEGEND17 LEGEND18
 
 #endif

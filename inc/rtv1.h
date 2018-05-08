@@ -6,7 +6,7 @@
 /*   By: bpierce <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/22 14:11:51 by bpierce           #+#    #+#             */
-/*   Updated: 2018/01/25 18:35:36 by bpierce          ###   ########.fr       */
+/*   Updated: 2018/05/07 21:00:06 by bpierce          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@
 # include <sys/stat.h>
 # include <pthread.h>
 
-# define W 800
-# define H 600
+# define W 1200
+# define H 800
 
 typedef struct			s_grid
 {
