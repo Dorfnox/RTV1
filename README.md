@@ -3,6 +3,8 @@
 A 42 School Silicon Valley graphics project.
 Build a raytracing application able to render computer-generated images.
 
+![Example](https://raw.githubusercontent.com/Dorfnox/RTV1/master/example_images/example2.png)
+
 ## Getting Started
 
 ```
