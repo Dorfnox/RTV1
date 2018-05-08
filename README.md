@@ -35,6 +35,8 @@ To see a list of program commands, run:
 
 Press the 'i' key in the application to bring up user controls.
 
+![Example](https://raw.githubusercontent.com/Dorfnox/RTV1/master/example_images/example1.png)
+
 And that's it! Enjoy!
 
 ## Built With
