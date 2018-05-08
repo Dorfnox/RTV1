@@ -6,7 +6,7 @@
 /*   By: bpierce <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/18 11:55:35 by bpierce           #+#    #+#             */
-/*   Updated: 2018/05/07 20:58:01 by bpierce          ###   ########.fr       */
+/*   Updated: 2018/05/07 21:07:58 by bpierce          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -180,7 +180,7 @@
 
 # define LEGEND14 "[97mCamera Manipulation\n-------------------\n[0m"
 # define LEGEND15 "[W, A, S, D, Z, X]              Translate Camera x, y, z axis\n"
-# define LEGEND16 "[(SHIFT) + (W, A, S, D, Z, X)]  Rotate Camera x, y, z axis\n"
+# define LEGEND16 "[(SHIFT) + (W, A, S, D, Z, X)]  Rotate Camera x, y, z axis\n\n"
 # define LEGEND17 LEGEND1 LEGEND2 LEGEND3 LEGEND4 LEGEND5 LEGEND6 LEGEND7 LEGEND8
 # define LEGEND18 LEGEND9 LEGEND10 LEGEND11 LEGEND12 LEGEND13 LEGEND14 LEGEND15 LEGEND16
 # define LEGEND LEGEND17 LEGEND18
